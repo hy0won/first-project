@@ -18,3 +18,5 @@ data_unlist
 wordcount_top <-head(sort(wordcount, decreasing = T),100)
 
 wordcloud(names(wordcount_top), wordcount_top)
+
+plot(x, y, ...)
